@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 5rem;
+    color: blue;
+}
+.completed{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.not{
+    font-size: 1.5rem;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.del {
+    color: darkred;
+    font-size: 1.1rem;
+    border: 1px solid red;
+    border-radius: 1rem;
+    padding: 4px;
+}
+
+.del:hover {
+    cursor: pointer;
+}
+
+.action {
+    font-size: 1.5rem;
+    color: darkblue;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 1rem;
+}
+
+.btn {
+    margin: 2rem 1rem;
+}
+
+.todoItem:hover {
+    cursor: pointer;
+}
